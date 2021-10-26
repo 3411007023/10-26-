@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a1{
+            font-size: 100px;
+        }
+        #id1{
+            background-color: slateblue;
+        }
+        #id2{
+          background-color: royalblue;
+        }
+        .b1{
+            color: yellow;
+        }
+        input[type=text]{
+            background-color: violet;
+        }
+        .abc{
+            color: turquoise;
+        }
+    </style>
+</head>
+<body>
+    <div class="a1 b1"  id="id1">div</div>
+    <span class="a1" id="id2">安安</span>
+    <p class="a1">p</p>
+
+    <input type="text" class="a2" style="font-size: 50px;">
+    <input type="button" value="送出" style="font-size: 30px;">
+
+    <div>
+        <a href="#" class="abc" style="font-size: 30px;">google</a>
+        <a href="#" style="font-size: 30px;">google</a>
+    </div>
+</body>
+</html>
